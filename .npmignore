@@ -1,0 +1,14 @@
+*.tgz
+.eslintrc.js
+.git
+.gitattributes
+.gitignore
+.npmignore
+.prettierrc
+files.gen
+gen.yaml
+node_modules
+package-lock.json
+tsconfig.json
+/src
+/debug

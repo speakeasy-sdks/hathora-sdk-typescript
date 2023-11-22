@@ -1,0 +1,37 @@
+configVersion: 1.0.0
+generation:
+  comments: {}
+  sdkClassName: Hathora-Cloud
+  repoURL: https://github.com/speakeasy-sdks/hathora-sdk-typescript.git
+  usageSnippets:
+    optionalPropertyRendering: withExample
+features:
+  typescriptv2:
+    core: 3.1.5
+    deprecations: 2.81.1
+    downloadStreams: 0.1.1
+    flattening: 2.81.1
+    globalSecurity: 2.82.2
+    globalServerURLs: 2.82.1
+    globals: 2.81.1
+    methodSecurity: 2.82.1
+typescriptv2:
+  version: 1.0.0-preview.1
+  author: Hathora
+  clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: false
+  imports:
+    option: openapi
+    paths:
+      callbacks: ""
+      errors: ""
+      operations: ""
+      shared: ""
+      webhooks: ""
+  inputModelSuffix: input
+  installationURL: https://github.com/hathora/cloud-sdk-typescript
+  maxMethodParams: "3"
+  outputModelSuffix: output
+  packageName: '@speakeasy-sdks/hathora-sdk-typescript'
+  published: false
+  repoSubDirectory: .
